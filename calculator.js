@@ -1,6 +1,3 @@
-/*let name = prompt("Hello, what ist your name?");
-alert(`Hello ${name}`);*/
-
 
 function addNumbers ( ) {
     let firstcount = prompt ("Enter the first number");
