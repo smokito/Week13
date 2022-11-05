@@ -1,28 +1,31 @@
+let firstcount;
+let secondcount;
+let result;
 
-function addNumbers ( ) {
-    let firstcount = prompt ("Enter the first number");
-    let secondcount = prompt ("Enter the second number");
-    alert(+firstcount + +secondcount);
-    
+function addNumbers() {
+  firstcount = prompt("Enter the first number");
+  secondcount = prompt("Enter the second number");
+  result = +firstcount + +secondcount;
+  alert(`Your result is: ${result}`);
 }
 
-function subtractNumbers () {
-    let firstcount = prompt ("Enter the first number");
-    let secondcount = prompt ("Enter the second number");
-    alert(+firstcount - +secondcount);
+function subtractNumbers() {
+  firstcount = prompt("Enter the first number");
+  secondcount = prompt("Enter the second number");
+  result = +firstcount - +secondcount;
+  alert(`Your result is: ${result}`);
 }
 
-function multiplyNumbers () {
-    let firstcount = prompt ("Enter the first number");
-    let secondcount = prompt ("Enter the second number");
-    alert(+firstcount * +secondcount);
+function multiplyNumbers() {
+  firstcount = prompt("Enter the first number");
+  secondcount = prompt("Enter the second number");
+  result = +firstcount * +secondcount;
+  alert(`Your result is: ${result}`);
 }
 
-function divideNumbers () {
-    let firstcount = prompt ("Enter the first number");
-    let secondcount = prompt ("Enter the second number");
-    alert(+firstcount / +secondcount);
+function divideNumbers() {
+  firstcount = prompt("Enter the first number");
+  secondcount = prompt("Enter the second number");
+  result = +firstcount / +secondcount;
+  alert(`Your result is: ${result}`);
 }
-
-
-
